@@ -1,4 +1,4 @@
-#TEMPLATE LITREALS
+# TEMPLATE LITREALS
 
 this is a special type of string created with backticks (`) We dont use , we use $ to access the value 
 
@@ -13,3 +13,6 @@ AFTER-let name = "Mehra"
 let age = 25;
 console.log (`my name is ${name} and my age is ${age}`);
 console.log(typeof name); 
+
+# STRING INTERPOLATION 
+${expresions or variable}  this is called string interpolation
