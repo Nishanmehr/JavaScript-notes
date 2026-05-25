@@ -38,3 +38,25 @@ for (let i =0; i< arr.length; i++){
      console.log(`The offer for ${arr[i]} is ${offer}`);
 }
 ```
+### Array Methods
+``` javascript
+
+shift(); // used to delete array element from start
+
+push("Amazon"); // use to add element in the end of array.
+
+pop();  // use to delete element from end.
+
+toString(); // use to convert array into string.
+
+let mergedcomp =comp.concat(comp2); // use to combine or merge two arrays together.
+
+unshift("Amazon"); // use to add element in the starting of array.
+
+let slicecomp = comp.slice(1, 3); // use to access the indexx element if wee enter last element 3 then output give index 2.
+
+comp.splice(2, 0, "Ola"); // use to add element after the given index
+
+comp.splice(2, 1); // use to delete the element after the given index 2.
+
+comp.splice(2, 1, "Ola"); // use to replace the element after given idx 2.
